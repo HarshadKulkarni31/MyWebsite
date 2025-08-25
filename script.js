@@ -14,37 +14,30 @@ document.addEventListener('DOMContentLoaded', () => {
     let fuse;
 
     async function fetchDiseases() {
-        loader.style.display = 'block';
-        diseaseGrid.style.display = 'none';
-        try {
-            const completion = await websim.chat.completions.create({
-                messages: [{
-                    role: "system",
-                    content: `Generate a JSON array of 101 common and diverse diseases. Each object in the array should have the following properties: "name" (string), "cause" (string, a concise explanation), "prevention" (string, concise preventative measures), and "treatment" (string, common treatments). Ensure the JSON is well-formed. Respond with only the JSON array.`,
-                }, {
-                    role: "user",
-                    content: "Please generate the list of diseases."
-                }, ],
-                json: true,
-            });
-            diseases = JSON.parse(completion.content);
+    loader.style.display = 'block';
+    diseaseGrid.style.display = 'none';
 
-            const options = {
-                keys: ['name'],
-                includeScore: true,
-                threshold: 0.4
-            };
-            fuse = new Fuse(diseases, options);
+    try {
+        const response = await fetch('diseases.json');  // ✅ THIS LINE
+        diseases = await response.json();               // ✅ parses JSON
 
-            displayDiseases(diseases);
-        } catch (error) {
-            console.error('Error fetching disease data:', error);
-            diseaseGrid.innerHTML = '<p style="text-align: center; color: #ff6b6b;">Failed to load disease data. Please try again later.</p>';
-        } finally {
-            loader.style.display = 'none';
-            diseaseGrid.style.display = 'grid';
-        }
+        const options = {
+            keys: ['name'],
+            includeScore: true,
+            threshold: 0.4
+        };
+        fuse = new Fuse(diseases, options);
+
+        displayDiseases(diseases);
+    } catch (error) {
+        console.error('Error fetching disease data:', error);
+        diseaseGrid.innerHTML = '<p style="text-align: center; color: #ff6b6b;">Failed to load disease data. Please try again later.</p>';
+    } finally {
+        loader.style.display = 'none';
+        diseaseGrid.style.display = 'grid';
     }
+}
+
 
     function displayDiseases(diseaseList) {
         diseaseGrid.innerHTML = '';
