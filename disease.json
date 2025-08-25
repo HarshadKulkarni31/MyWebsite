@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Diabetes",
+    "cause": "Insulin resistance or insufficient insulin production",
+    "prevention": "Healthy diet, regular exercise, weight control",
+    "treatment": "Insulin therapy, oral medications, lifestyle changes"
+  },
+  {
+    "name": "Hypertension",
+    "cause": "Chronic high blood pressure due to lifestyle or genetics",
+    "prevention": "Low-sodium diet, exercise, reduced stress",
+    "treatment": "Antihypertensive medications, dietary changes"
+  },
+  {
+    "name": "Asthma",
+    "cause": "Inflammation and narrowing of airways",
+    "prevention": "Avoid allergens, quit smoking, use air filters",
+    "treatment": "Inhalers, corticosteroids, bronchodilators"
+  },
+  {
+    "name": "Tuberculosis",
+    "cause": "Infection by Mycobacterium tuberculosis",
+    "prevention": "BCG vaccination, avoid close contact with infected individuals",
+    "treatment": "Antibiotics over a long-term regimen"
+  },
+  {
+    "name": "Malaria",
+    "cause": "Plasmodium parasite transmitted by mosquitoes",
+    "prevention": "Use mosquito nets, repellents, antimalarial drugs",
+    "treatment": "Antimalarial medications such as chloroquine or artemisinin"
+  },
+  {
+    "name": "COVID-19",
+    "cause": "Infection with the SARS-CoV-2 virus",
+    "prevention": "Vaccination, mask-wearing, social distancing",
+    "treatment": "Antiviral medications, supportive care"
+  },
+  {
+    "name": "Influenza",
+    "cause": "Influenza virus infection",
+    "prevention": "Annual flu vaccination, hygiene practices",
+    "treatment": "Antivirals, rest, fluids"
+  },
+  {
+    "name": "Pneumonia",
+    "cause": "Bacterial, viral, or fungal infection of the lungs",
+    "prevention": "Vaccinations, good hygiene, avoid smoking",
+    "treatment": "Antibiotics, antivirals, supportive care"
+  },
+  {
+    "name": "Alzheimer's Disease",
+    "cause": "Degeneration of brain cells, possibly genetic",
+    "prevention": "Mentally active lifestyle, healthy diet",
+    "treatment": "Medications to manage symptoms, cognitive therapy"
+  },
+  {
+    "name": "Parkinson's Disease",
+    "cause": "Loss of dopamine-producing neurons in the brain",
+    "prevention": "No guaranteed prevention, but healthy lifestyle may help",
+    "treatment": "Levodopa, physical therapy, deep brain stimulation"
+  },
+  {
+    "name": "HIV/AIDS",
+    "cause": "Infection with the human immunodeficiency virus (HIV)",
+    "prevention": "Safe sex, avoid sharing needles, PrEP medication",
+    "treatment": "Antiretroviral therapy (ART)"
+  },
+  {
+    "name": "Hepatitis B",
+    "cause": "Hepatitis B virus infection",
+    "prevention": "Vaccination, avoid contact with infected blood",
+    "treatment": "Antiviral medications, liver monitoring"
+  },
+  {
+    "name": "Cholera",
+    "cause": "Vibrio cholerae infection via contaminated water or food",
+    "prevention": "Clean drinking water, proper sanitation",
+    "treatment": "Rehydration therapy, antibiotics in severe cases"
+  },
+  {
+    "name": "Dengue",
+    "cause": "Dengue virus transmitted by Aedes mosquitoes",
+    "prevention": "Mosquito control, avoid bites",
+    "treatment": "Pain relievers, hydration, medical monitoring"
+  },
+  {
+    "name": "Typhoid Fever",
+    "cause": "Salmonella Typhi bacteria through contaminated food/water",
+    "prevention": "Safe drinking water, proper sanitation",
+    "treatment": "Antibiotics, supportive care"
+  },
+  {
+    "name": "Anemia",
+    "cause": "Lack of healthy red blood cells or hemoglobin",
+    "prevention": "Iron-rich diet, vitamin B12 intake",
+    "treatment": "Iron supplements, dietary changes"
+  },
+  {
+    "name": "Migraine",
+    "cause": "Neurological condition with genetic and environmental triggers",
+    "prevention": "Avoid known triggers, regular sleep and meals",
+    "treatment": "Pain relief medications, preventive drugs"
+  },
+  {
+    "name": "Depression",
+    "cause": "Combination of genetic, biological, environmental, and psychological factors",
+    "prevention": "Early support, stress management, social connection",
+    "treatment": "Therapy, antidepressants, lifestyle changes"
+  },
+  {
+    "name": "Osteoporosis",
+    "cause": "Low bone density due to aging or hormonal changes",
+    "prevention": "Calcium and vitamin D, weight-bearing exercises",
+    "treatment": "Bisphosphonates, hormone therapy"
+  },
+  {
+    "name": "Skin Cancer",
+    "cause": "Uncontrolled growth of skin cells, often from UV exposure",
+    "prevention": "Sunscreen, protective clothing, avoid tanning beds",
+    "treatment": "Surgery, radiation therapy, topical treatments"
+  }
+]
